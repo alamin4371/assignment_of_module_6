@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Resigtration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+     <div class="container">
+      <div class="card">
+        <h2 class="form_title">Resigtration</h2>
+       <form action="#">
+         <div class="form_group">
+            <div class="form_ditels">
+                <span for="full_name">Full Name</span>
+                <input type="text"  id="full_name" name="full_name" placeholder="Enter your name" required>
+            </div>
+            <div class="form_ditels">
+              <span for="username" >Username</span>
+              <input type="text" class="align" id="username" name="username" placeholder="Enter your username" required>
+            </div>
+          </div>
+
+          <div class="form_group">
+            <div class="form_ditels">
+                <span for="email">Email</span>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form_ditels">
+                <span for="phone" >Phone Number</span>
+                <input type="tel" class="align" id="phone" name="phone" placeholder="Enter your number" required>
+            </div>               
+          </div>
+
+          <div class="form_group">
+            <div class="form_ditels">
+                <span for="password">Password</span>
+                <input type="password"  id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <div class="form_ditels">
+                <span for="confirm_password">Confirm Password</span>
+                <input type="password" class="align" id="confirm_password" name="confirm_password" placeholder="Confirm your password" required>
+            </div>
+         </div> 
+         
+         <div class="gender_group">
+					<label><span>Gender:</span></label>
+					<label><input type="radio" name="gender" value="male" required> Male</label>
+					<label><input type="radio" name="gender" value="female" required> Female</label>
+					<label><input type="radio" name="gender" value="other" required> Other</label>
+				</div>
+
+        <div class="btn_group">
+          <button type="cancel" class="btn btn_cancel">Cancel</button>
+          <button type="submit" class="btn btn_submit">Submit</button>
+        </div>
+        </div>
+
+       </form>
+      </div> 
+     </div>
+    </body>
+</html>
+
